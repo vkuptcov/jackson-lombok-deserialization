@@ -1,0 +1,24 @@
+apply plugin: "java"
+apply plugin: "application"
+
+group = "com.github.vkuptcov"
+version = "0.0.1-SNAPSHOT"
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    lombokVersion = "1.16.20"
+    jacksonVersion = "2.9.2"
+}
+
+
+dependencies {
+    compile "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"
+    compileOnly "org.projectlombok:lombok:${lombokVersion}"
+
+    testCompile "junit:junit:4.12"
+    testCompileOnly "org.projectlombok:lombok:${lombokVersion}"
+}
