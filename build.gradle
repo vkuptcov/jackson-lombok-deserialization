@@ -10,8 +10,8 @@ repositories {
 }
 
 ext {
-    lombokVersion = "1.16.20"
-    jacksonVersion = "2.9.2"
+    lombokVersion = "1.16.18"
+    jacksonVersion = "2.9.4"
 }
 
 
