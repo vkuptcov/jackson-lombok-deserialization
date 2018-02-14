@@ -11,7 +11,7 @@ repositories {
 
 ext {
     lombokVersion = "1.16.20"
-    jacksonVersion = "2.9.2"
+    jacksonVersion = "2.9.4"
 }
 
 
